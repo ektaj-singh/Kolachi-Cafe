@@ -22,6 +22,10 @@
     --bg-color: #fff;
   }
 
+  section {
+    padding: 50px 100px;
+  }
+
   img {
     width: 155px;
   }
@@ -88,4 +92,18 @@
     z-index: 100001;
     cursor: pointer;
     display: none;
+  }
+
+  .home {
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/bg\ img.jpeg\ 14-37-01-051.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+    
   }
