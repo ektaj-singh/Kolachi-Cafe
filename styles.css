@@ -105,5 +105,12 @@
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
     align-items: center;
     gap: 1.5rem;
+  }
+
+  .home-text h1 {
+    font-size: 3.4rem;
+    color: #ffbd4a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     
   }
