@@ -115,7 +115,7 @@
   }
 
   .about {
-    /* background-color: #ba8460; */
+    background-color: #DB8148;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
     align-items: center;
