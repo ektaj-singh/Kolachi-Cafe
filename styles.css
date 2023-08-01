@@ -27,7 +27,7 @@
   }
 
   img {
-    width: 155px;
+    width: 120px;
   }
 
   body {
@@ -97,7 +97,7 @@
   .home {
     width: 100%;
     min-height: 100vh;
-    background: url(images/bg\ img.jpeg\ 14-37-01-051.jpeg);
+    background: url(images/IMG_2072.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
