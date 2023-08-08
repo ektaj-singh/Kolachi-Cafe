@@ -35,7 +35,7 @@
   }
 
   header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     right: 0;
@@ -50,6 +50,12 @@
 
   .logo img {
     width: 60px;
+
+  }
+
+  .logo {
+    left: 100px;
+   
   }
 
   .navbar {
@@ -109,16 +115,16 @@
 
   .home-text h1 {
     font-size: 3.4rem;
-    color: #ffbd4a;
+    color: #ffff00;
     text-transform: uppercase;
     letter-spacing: 1px;
+    
   }
 
   .about {
-    background-color: #DB8148;
+    /* background-color: #DB8148; */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
-    align-items: center;
     gap: 1.5rem;
   }
 
@@ -136,4 +142,13 @@
   .about-text p {
     font-size: 0.938rem;
     margin: 0.5rem 0 1.1rem;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .heading h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
   }
