@@ -35,7 +35,7 @@
   }
 
   header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     right: 0;
@@ -48,8 +48,19 @@
     background: var(--text-color);
   }
 
+  header h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #fff
+  }
+
   .logo img {
     width: 60px;
+
+  }
+
+  .logo {
+    left: 100px;
+   
   }
 
   .navbar {
@@ -97,7 +108,7 @@
   .home {
     width: 100%;
     min-height: 100vh;
-    background: url(images/IMG_2072.png);
+    background: url(images/Cafe-Background.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -109,16 +120,16 @@
 
   .home-text h1 {
     font-size: 3.4rem;
-    color: #ffbd4a;
+    color: #ffff00;
     text-transform: uppercase;
     letter-spacing: 1px;
+    
   }
 
   .about {
-    /* background-color: #ba8460; */
+    background-color: #DB8148;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
-    align-items: center;
     gap: 1.5rem;
   }
 
@@ -136,4 +147,41 @@
   .about-text p {
     font-size: 0.938rem;
     margin: 0.5rem 0 1.1rem;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .heading h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+
+  .menus-container {
+    /* background-color: #DB8148; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .menus-container .box {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+  }
+
+  .menus-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    background:#fff;
+    border-radius: 0.5rem;
   }
