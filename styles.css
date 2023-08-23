@@ -16,11 +16,11 @@
   }
 
   :root {
-    --main-color: #bc9667;
-    --second-color: #edeae3;
-    --text-color: #1b1b1b;
+    --main-color: black;
+    --second-color: black;
+    --text-color: #fff;
     --bg-color: #fff;
-    background-color: #DB8148;
+    background-color: black;
   }
 
   section {
@@ -46,11 +46,10 @@
     align-items: center;
     padding: 18px 100px;
     transition: 0.5s linear;
-    /* background: var(--text-color); */
   }
 
   header.shadow {
-    background: var(--text-color);
+    background: black;
     box-shadow: var(--box-shadow);
   }
 
