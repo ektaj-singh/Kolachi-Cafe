@@ -16,11 +16,11 @@
   }
 
   :root {
-    --main-color: burlywood;
-    --second-color: burlywood;
-    --text-color: brown;
-    --bg-color: brown;
-    background-color: burlywood;
+    --main-color: #935F4C;
+    --second-color: #935F4C;;
+    --text-color: burlywood;
+    --bg-color: burlywood;
+    background-color:#935F4C;
   }
 
   section {
@@ -49,13 +49,13 @@
   }
 
   header.shadow {
-    background: burlywood;
+    background: #935F4C;;
     box-shadow: var(--box-shadow);
   }
 
   header h1 {
   font-family: 'old english';
-  color: brown
+  color:burlywood
   }
 
   .logo img {
